@@ -2,6 +2,7 @@
 /*--------Ejercicio A--------*/
 /*--------------------------*/
 
+console.error('Realizando el ejercicio A')
 
 var cantidadDeGatos = 10;
 
@@ -23,6 +24,8 @@ for (var i = 1; i <= cantidadDeGatos; i++) {
 /*--------Ejercicio B--------*/
 /*--------------------------*/
 
+console.error('Realizando el ejercicio B')
+
 var cantidadDeGatos = 5;
 var cantidadDePasos = 3;
 
@@ -41,6 +44,8 @@ for (var i = 1; i <= cantidadDeGatos; i++) {
 /*----------------------------*/
 /*--------Ejercicio C--------*/
 /*--------------------------*/
+
+console.error('Realizando el ejercicio C')
 
 
 var cantidadDeGatos = 10;
