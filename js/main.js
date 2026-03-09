@@ -37,3 +37,30 @@ for (var i = 1; i <= cantidadDeGatos; i++) {
     
     console.log("Gato #" + i + ": 🐈 " + pasos);
 }
+
+/*----------------------------*/
+/*--------Ejercicio C--------*/
+/*--------------------------*/
+
+
+var cantidadDeGatos = 10;
+var cantidadDePasos = 4;
+
+for (var i = 1; i <= cantidadDeGatos; i++) {
+
+    // Alternar gatos usando módulo
+    var gato;
+    if (i % 2 === 0) {
+        gato = "🐈‍⬛";
+    } else {
+        gato = "🐈";
+    }
+
+    // Generar pasos
+    var pasos = "";
+    for (var j = 1; j <= cantidadDePasos; j++) {
+        pasos += "🐾";
+    }
+
+    console.log("Gato #" + i + ": " + gato + " " + pasos);
+}
